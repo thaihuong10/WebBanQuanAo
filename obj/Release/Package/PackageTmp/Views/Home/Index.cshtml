@@ -1,0 +1,222 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+    ViewBag.active = 1;
+}
+
+<meta charset="utf-8">
+<title>Trang chủ</title>
+<link rel="icon" type="~/image/x-icon" href="~/image/light-logo.png">
+<link href="~/css/home.css" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/~/css/font-awesome.min.css">
+<link href="~/css/chatbot.css" rel="stylesheet" />
+
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 8</div>
+        <img src="~/image/slideshow_2.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 8</div>
+        <img src="~/image/slideshow_3.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 8</div>
+        <img src="~/image/slideshow_4.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 8</div>
+        <img src="~/image/slideshow_5.jpg" style="width:100%">
+        <div class="text">Caption Four</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 8</div>
+        <img src="~/image/slideshow_6.jpg" style="width:100%">
+        <div class="text">Caption Four</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">6 / 8</div>
+        <img src="~/image/slideshow_8.jpg" style="width:100%">
+        <div class="text">Caption Four</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">7 / 8</div>
+        <img src="~/image/slideshow_9.jpg" style="width:100%">
+        <div class="text">Caption Four</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">8 / 8</div>
+        <img src="~/image/slideshow_10.jpg" style="width:100%">
+        <div class="text">Caption Four</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+</div>
+<div class="container">
+    <div class="tieude"><h1>Sản phẩm nổi bật</h1></div>
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">Giảm 50%</span>
+                <a href="~/DetailProduct/Index"><img src="~/image/product1_1.jpg" class="product-thumb" alt=""></a>
+                <button class="card-btn">Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Tên sảm phẩm</h2>
+                <p class="product-short-des">Thông tin sản phẩm..</p>
+                <span class="price">299.000đ</span><span class="actual-price">499.000đ</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">Giảm 50%</span>
+                <a href="~/DetailProduct/Index"><img src="~/image/product2_1.jpg" class="product-thumb" alt=""></a>
+                <button class="card-btn">Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Tên sảm phẩm</h2>
+                <p class="product-short-des">Thông tin sản phẩm..</p>
+                <span class="price">299.000đ</span><span class="actual-price">499.000đ</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">Giảm 50%</span>
+                <a href="~/DetailProduct/Index"><img src="~/image/product3_1.jpg" class="product-thumb" alt=""></a>
+                <button class="card-btn">Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Tên sảm phẩm</h2>
+                <p class="product-short-des">Thông tin sản phẩm..</p>
+                <span class="price">299.000đ</span><span class="actual-price">499.000đ</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">Giảm 50%</span>
+                <a href="~/DetailProduct/Index"><img src="~/image/product4_1.jpg" class="product-thumb" alt=""></a>
+                <button class="card-btn">Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Tên sảm phẩm</h2>
+                <p class="product-short-des">Thông tin sản phẩm..</p>
+                <span class="price">299.000đ</span><span class="actual-price">499.000đ</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">Giảm 50%</span>
+                <a href="~/DetailProduct/Index"><img src="~/image/product5_1.jpg" class="product-thumb" alt=""></a>
+                <button class="card-btn">Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Tên sảm phẩm</h2>
+                <p class="product-short-des">Thông tin sản phẩm..</p>
+                <span class="price">299.000đ</span><span class="actual-price">499.000đ</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">Giảm 50%</span>
+                <a href="~/DetailProduct/Index"><img src="~/image/product6_1.jpg" class="product-thumb" alt=""></a>
+                <button class="card-btn">Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Tên sảm phẩm</h2>
+                <p class="product-short-des">Thông tin sản phẩm..</p>
+                <span class="price">299.000đ</span><span class="actual-price">499.000đ</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">Giảm 50%</span>
+                <a href="~/DetailProduct/Index"><img src="~/image/product7_1.jpg" class="product-thumb" alt=""></a>
+                <button class="card-btn">Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Tên sảm phẩm</h2>
+                <p class="product-short-des">Thông tin sản phẩm..</p>
+                <span class="price">299.000đ</span><span class="actual-price">499.000đ</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">Giảm 50%</span>
+                <a href="~/DetailProduct/Index"><img src="~/image/product8_1.jpg" class="product-thumb" alt=""></a>
+                <button class="card-btn">Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Tên sảm phẩm</h2>
+                <p class="product-short-des">Thông tin sản phẩm..</p>
+                <span class="price">299.000đ</span><span class="actual-price">499.000đ</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <a href="#"><img src="~/image/anhgiua.jpg"></a>
+</div>
+<div class="tieude"><h1>Đặc biệt</h1></div>
+<div class"container">
+    <div class="product-containe2">
+        <div class="product-card2">
+
+            <a href="#"><img src="~/image/slideshow_7.jpg" class="product-thumb" alt=""></a>
+
+        </div>
+        <div class="product-card2">
+
+            <a href="#"><img src="~/image/slideshow_3.jpg" class="product-thumb" alt=""></a>
+
+        </div>
+        <div class="product-card2">
+
+            <a href="#"><img src="~/image/slideshow_4.jpg" class="product-thumb" alt=""></a>
+
+        </div>
+        <div class="product-card2">
+
+            <a href="#"><img src="~/image/slideshow_5.jpg" class="product-thumb" alt=""></a>
+        </div>
+        <div class="product-card2">
+
+            <a href="#"><img src="~/image/slideshow_6.jpg" class="product-thumb" alt=""></a>
+        </div>
+        <div class="product-card2">
+
+            <a href="#"><img src="~/image/slideshow_9.jpg" class="product-thumb" alt=""></a>
+        </div>
+    </div>
+</div>
+<div class="tieude"><h1>Thông Báo</h1></div>
+<div class"container">
+    <div class="product-containe2">
+
+
+        <a href="#"><img src="~/image/suthongbao.jpg" class="product-thumb" alt="" style="width: 1500px; height: 1000px"></a>
+
+    </div>
+</div>
+
+

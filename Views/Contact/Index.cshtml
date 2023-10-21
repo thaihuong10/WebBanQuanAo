@@ -1,0 +1,46 @@
+﻿
+@{
+    Layout ="~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+    <meta charset="utf-8">
+    <title>Liên hệ</title>
+    <link rel="icon" type="image/x-icon" href="image/light-logo.png">
+    <link href="~/css/contact.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/nav.css" />
+    <link rel="stylesheet" href="~/css/footer.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/~/css/font-awesome.min.css">
+    <link href="~/css/chatbot.css" rel="stylesheet" />
+
+
+    <div class="contact1">
+        <div class="contact2">
+            <div class="contact2_1"><h1>Liên hệ</h1></div>
+            <div class="contact2_2">
+
+                <form>
+                    <label for="fname">Họ</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Tên</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Quốc gia</label>
+                    <select id="country" name="country">
+                        <option value="australia">Việt Nam</option>
+                        <option value="canada">Mỹ</option>
+                        <option value="usa">Đức</option>
+                    </select>
+
+                    <label for="subject">Nội dung</label>
+                    <textarea id="subject" name="subject" placeholder="Viết vài thứ.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Gửi">
+                </form>
+            </div>
+        </div>
+    </div>
+

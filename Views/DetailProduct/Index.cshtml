@@ -1,0 +1,215 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<link rel="icon" type="image/x-icon" href="image/light-logo.png">
+<link href="~/css/nav.css" rel="stylesheet" />
+<link href="~/css/footer.css" rel="stylesheet" />
+<link href="~/css/product.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/~/css/font-awesome.min.css">
+<link href="~/css/chatbot.css" rel="stylesheet" />
+
+
+
+<section class="product1">
+    <div class="product2">
+        <div class="product3">
+            <div class="product-hinhanh">
+                <div class="hinhanhtrai">
+                    <img src="~/image/mau1.jpg">
+                </div>
+                <div class="hinhanhphai">
+                    <img src="~/image/mau1_1.jpg">
+                </div>
+            </div>
+            <div class="product-hinhanh">
+                <div class="hinhanhtrai">
+                    <img src="~/image/mau2.jpg">
+                </div>
+                <div class="hinhanhphai">
+                    <img src="~/image/mau2_2.jpg">
+                </div>
+            </div>
+            <div class="product-hinhanh">
+                <div class="hinhanhtrai">
+                    <img src="~/image/mau3.jpg">
+                </div>
+                <div class="hinhanhphai">
+                    <img src="~/image/mau3_3.jpg">
+                </div>
+            </div>
+            <div class="product-hinhanh">
+                <div class="hinhanhtrai">
+                    <img src="~/image/mau4.jpg">
+                </div>
+                <div class="hinhanhphai">
+                    <img src="~/image/mau4_4.jpg">
+                </div>
+            </div>
+            <div class="product-hinhanh">
+                <div class="hinhanhtrai">
+                    <img src="~/image/mau5.jpg">
+                </div>
+                <div class="hinhanhphai">
+                    <img src="~/image/mau5_5.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="product4">
+            <diV class="product4_1">
+                <div class="product4_1_1">
+                    <span>ÁO OLIVER HODDIE</span>
+                </div>
+                <div class="product4_1_2">
+                    <span><del>499.000</del>đ</span>
+                    <span>299.000đ</span>
+                </div>
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+                <div class="thanhmau">
+                    <div class="mau">
+                        <input class="mau-product" id="xamdam" type="button" onclick="currentSlide(1) " alt="xámđậm">
+                    </div>
+                    <div class="mau">
+                        <input class="mau-product" id="do" type="button" onclick="currentSlide(2)" alt="Đỏ">
+                    </div>
+                    <div class="mau">
+                        <input class="mau-product" id="xam" type="button" onclick="currentSlide(3)" alt="xám">
+                    </div>
+                    <div class="mau">
+                        <input class="mau-product" id="xanhdam" type="button" onclick="currentSlide(4)" alt="Xanh Đậm">
+                    </div>
+                    <div class="mau">
+                        <input class="mau-product" id="xanh" type="button" onclick="currentSlide(5)" alt="Xanh">
+                    </div>
+                </div>
+
+                <div class="product4_1_3">
+                    <div><span>X</span></div>
+                    <div><span>M</span></div>
+                    <div><span>L</span></div>
+                    <div><span>XL</span></div>
+                </div>
+                <div class="product4_1_4">
+                    <input type="button" id="add-sanpham" value="Thêm vào giỏ hàng">
+                </div>
+                <div class="product4_1_5"><span>Thông tin sản phẩm</span></div>
+                <div class="product4_1_6">
+                    <div class="chitiet-product">
+                        <button class="accordion">Chi tiết</button>
+                        <div class="panel">
+                            <p>Mã SP. TC3021002</p>
+
+                            <p>Một trong những item không thể thiếu trong những ngày giao mùa chính là sweatset đa năng, thích hợp mặc đi cafe cùng bạn bè, hoạt động thể thao hay đơn giản chỉ là thư giãn ở nhà. The Cosmo xin được gửi tới bạn ấn phẩm đặc biệt Skyler Sweatset gồm 4 màu cơ bản: trắng, đen, xám & xanh navy. </p>
+
+                            <P>Sweatset gồm một áo thun sweatshirt và một sweatpants đồng bộ. Áo thun tay dài, cổ tròn, có bo thun tại cổ và tay áo. Chất liệu thun da cá 100% cotton, mềm mịn, có độ dày vừa phải, đem lại cảm giác thoải mái khi sử dụng.</P>
+                        </div>
+
+                        <button class="accordion">Chất liệu</button>
+                        <div class="panel">
+                            <p>100% Cotton</p>
+                        </div>
+
+                        <button class="accordion">Hướng dẫn sử dụng</button>
+                        <div class="panel">
+                            <p>Ủi nhẹ ở nhiệt độ tối đa 110°C</p>
+                            <p>Giặt máy bằng nước lạnh</p>
+                            <p>Nên giặt chung với các sản phẩm có cùng tông màu</p>
+                            <p>Không sử dụng chất tẩy mạnh</p>
+                        </div>
+                        <button class="accordion">Đổi Trả</button>
+                        <div class="panel">
+                            <p>Nếu quý khách chưa hoàn toàn hài lòng với sự lựa chọn của mình, THE COSMO luôn luôn hỗ trợ dịch vụ đổi/ trả sản phẩm theo quy định sau đây:</p>
+                            <p>- Khách hàng được phép đổi/ trả sản phẩm trong vòng 30 ngày kể từ ngày nhận được sản phẩm (theo dấu bưu điện). Khách hàng có thể mang sản phẩm trực tiếp tới cửa hàng hoặc gửi qua đường bưu điện. </p>
+                            <p>- Sản phẩm phải còn nguyên tem mạc, mã sản phẩm, nhãn mác và túi đựng của THE COSMO.</p>
+                            <p>- Sản phẩm không bị dơ bẩn, hư hỏng, trầy xước, không có mùi lạ, chưa qua sử dụng và chưa được giặt, tẩy.</p>
+                            <p>- Quý khách vui lòng đóng gói sản phẩm cần hoàn trả kèm đầy đủ tem mác, túi đựng, hoá đơn và mang sản phẩm trực tiếp tới cửa hàng, hoặc gửi kiện hàng đã đóng gói cho chúng tôi. </p>
+                            <p>- THE COSMO sẽ xử lý đơn hàng và gửi sản phẩm khác tới quý khách hàng trong vòng 7 ngày từ khi THE COSMO nhận được sản phẩm hoàn lại. </p>
+                            <p>- Trong trường hợp sản phẩm quý khách yêu cầu đổi hết hàng, quý khách có thể chọn sản phẩm khác.  </p>
+                            <p>- Để được hỗ trợ thêm về việc đổi trả sản phẩm, vui lòng liên hệ bộ phận Chăm sóc Khách hàng qua Hotline 1900 54 54 57 hoặc email contact@thecosmo.vn</p>
+                        </div>
+                    </div>
+                </div>
+            </diV>
+        </div>
+        <div class="product5">
+            <h1>Gợi ý dành cho bạn</h1>
+            <div class="product-container">
+                <div class="product-card">
+                    <div class="product-image">
+
+                        <img src="~/image/product1_1.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add to whislist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">brand</h2>
+                        <p class="product-short-des">a short line about the cloth..</p>
+                        <span class="price">299.000đ</span><span class="actual-price">499.000đ</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+
+                        <img src="~/image/product2_1.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add to whislist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">brand</h2>
+                        <p class="product-short-des">a short line about the cloth..</p>
+                        <span class="price">299.000đ</span><span class="actual-price">499.000đ</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+
+                        <img src="~/image/product3_1.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add to whislist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">brand</h2>
+                        <p class="product-short-des">a short line about the cloth..</p>
+                        <span class="price">299.000đ</span><span class="actual-price">499.000đ</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+
+                        <img src="~/image/product4_1.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add to whislist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">brand</h2>
+                        <p class="product-short-des">a short line about the cloth..</p>
+                        <span class="price">299.000đ</span><span class="actual-price">499.000đ</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+
+                        <img src="~/image/product8_1.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add to whislist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">brand</h2>
+                        <p class="product-short-des">a short line about the cloth..</p>
+                        <span class="price">299.000đ</span><span class="actual-price">499.000đ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="~/js/chatbot.js"></script>
+<script src="~/js/scroll bar.js" language="javascript"></script>
+<script src="~/js/product_slideshow.js" language="javascript"></script>
+<script src="~/js/nav.js" type="text/javascript" language="javascript"></script>
+

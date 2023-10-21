@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<meta charset="utf-8">
+<title>Giỏ hàng</title>
+<link rel="icon" type="image/x-icon" href="~/image/light-logo.png">
+<link href="~/css/nav.css" rel="stylesheet" />
+<link href="~/css/footer.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/~/css/font-awesome.min.css">
+<link rel="stylesheet" href="~/css/cart.css" />
+<link rel="stylesheet" href="~/css/chatbot.css" />
+
+
+<div class="container-cart">
+    <h1>Giỏ hàng</h1>
+    <div class="cart">
+        <div class="products">
+            <div class="product">
+                <img src="~/image/mau3.jpg">
+                <div class="product-info">
+                    <h3 class="product-name">New Shoes</h3>
+                    <h4 class="product-price">299.000đ</h4>
+                    <h4 class="product-offer">50%</h4>
+                    <p class="product-quantity">Số lượng: <input value="1" name="">
+                    <p class="product-remove">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                        <span class="remove">Xóa</span>
+                    </p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="~/image/mau4.jpg">
+                <div class="product-info">
+                    <h3 class="product-name">New Bag</h3>
+                    <h4 class="product-price">299.00đ</h4>
+                    <h4 class="product-offer">40%</h4>
+                    <p class="product-quantity">Số lượng: <input value="1" name="">
+                    <p class="product-remove">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                        <span class="remove">Xóa</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <p>
+                <span>Tổng tiền</span>
+                <span>268.000đ</span>
+            </p>
+            <p>
+                <span>Số mặt hàng</span>
+                <span>2</span>
+            </p>
+            <p>
+                <span>Tiết kiệm</span>
+                <span>329.000đ</span>
+            </p>
+            <a href="checkout.html">Thanh toán</a>
+        </div>
+    </div>
+</div>
+<div class="cart2">
+    <div>
+        <img src="~/image/cart1.jpg">
+        <p><b>MIỄN PHÍ VẬN CHUYỂN</b></p>
+        <p>Cho đơn hàng nguyên giá từ 500k</p>
+    </div>
+    <div>
+        <img src="~/image/cart2.jpg">
+        <p><b>90 NGÀY ĐỔI TRẢ</b></p>
+        <p>Đổi trả sản phẩm trong 90 ngày</p>
+    </div>
+    <div>
+        <img src="~/image/cart3.jpg">
+        <p><b>HOTLINE 24/7</b></p>
+        <p>Hotline 1900 54 54 57</p>
+    </div>
+</div>
+
